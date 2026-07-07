@@ -93,7 +93,7 @@ The workspace comprises the following key files:
 *   **[mux4_1.v]**: A standard 4-to-1 multiplexer for 48-bit values, used for operand selection in the X and Z stages.
 *   **[dsp_tb.v]**: A self-checking testbench that validates the functionality of the DSP slice through comprehensive test scenarios.
 *   **[dsp_constraints.xdc]**: Xilinx design constraints for synthesis, specifying target pinouts and clock requirements (100 MHz target frequency).
-*   **[run.do]** & **[do.do]**: Compilation and simulation scripts for ModelSim/QuestaSim to automate simulation and configure waveform displays.
+*   **[run.do]**: Compilation and simulation scripts for ModelSim/QuestaSim to automate simulation and configure waveform displays.
 
 ---
 
